@@ -1,0 +1,28 @@
+/*ABOUT*/
+#about {
+    border-left: solid 32px $primary;
+    height: auto;
+    position: relative;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 100%;
+   
+}
+.Row1--col2{
+    h2 {
+      font-size: 39px;
+      color: #343434;
+      span {
+        color: $primary;
+      }
+    }
+    
+  }
+ 
+.Row2--col2 p {
+    font-size: 16px;
+    color: #343434;
+}
+
+  
+    /*FIN DE ABOUT*/

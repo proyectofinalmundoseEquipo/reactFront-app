@@ -1,0 +1,86 @@
+/*Products ************************************************************************************ */
+/*
+.d-none {
+    display: none !important;
+    
+}*/
+  
+.section {
+  height: 100vh;
+  min-height: 800px;
+}
+  
+.section-products {
+  background: -webkit-gradient(linear, left top, right top, color-stop(75%, #F2F4F1), color-stop(25%, #DCE1DA));
+  background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+  
+.products-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 552px;
+  max-width: 1120px;
+  margin: auto;
+    /*centra automaticamente un elemento, en este caso la imagen*/
+  background-image: url("../../assets/img/section3-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.products-content-cards {
+  height:300px;
+  position: relative;
+  width: 480px;
+  background-color:#E0752F;
+}
+
+
+.carousel-control-prev{
+ margin-left: 390px;
+ margin-top: 220px;
+ z-index: 10;
+ width: 21px;
+
+}
+
+.carousel-control-next{
+  margin-top: 220px;
+  margin-right: 40px;
+  width: 21px;
+}
+
+.carousel-control-prev-icon{
+  background-image: url("../../assets/img/Icon feather-arrow-left-circle.svg");
+  
+}
+
+.carousel-control-next-icon{
+  background-image: url("../../assets/img/Icon feather-arrow-right-circle.svg");
+}
+
+.d-contents{
+  display: contents;
+}
+
+.carosuel-caption__title{
+  font-size: 16px !important;
+  padding-top: 20px;
+} 
+
+.carosuel-caption__subtitle{
+  margin-bottom: 20px;
+  font-size: 39px!important;
+}
+
+.carosuel-caption__text{
+  font-size: 16px;
+}
+
+
+//import imageSlideProductsLeft from "../../assets/img/Icon feather-arrow-left-circle.svg";
+//import imageSlideProductsRight from "../../assets/img/Icon feather-arrow-right-circle.svg";
+    /*Fin de products******************************************************************************/

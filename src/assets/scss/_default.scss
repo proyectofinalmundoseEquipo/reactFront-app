@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding-top: 0px;
+   
+  }
+  
+  
+  .clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+ 
+  .main {
+    overflow: hidden;
+  } 
+
+  
+
+.d-none {
+        display: none !important;
+}
