@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const instance = axios.create({
-  baseURL: 'http://trabajo-final-laravel-back.herokuapp.com/api/'
+  baseURL: 'https://trabajo-final-laravel-back.herokuapp.com/api/'
 })
 
 
